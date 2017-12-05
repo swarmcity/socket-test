@@ -29,22 +29,6 @@ Once the site has connected you will see in the console "TEST SUCESSFULL"
 
 Open the SITE folder and drag the index.html file into any browser, check the dev tools - console and you should see "TEST SUCESSFULL"
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Roadmap
 The plan is to incrementally add support for nginx and docker
 
