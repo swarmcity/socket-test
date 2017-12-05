@@ -21,7 +21,7 @@ npm install
 And then run the API
 
 ```
-node index.html
+npm start
 ```
 Once the site has connected you will see in the console "TEST SUCESSFULL"
 
@@ -36,7 +36,7 @@ npm install
 And then run the API
 
 ```
-node index.html
+npm start
 ```
 Open the SITE check the dev tools - console and you should see "TEST SUCESSFULL"
 
