@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>SOCKET TEST</title>
+    <script src='socket.io.js'></script>
+</head>
+<script>
+    console.log('=============== START ===============');
+    var socket = io.connect('http://localhost:8033');
+    console.log('=============== TEST SOCKET ===============');
+    console.log(socket);
+    console.log('=============== WAITING FOR API ===============');
+    socket.on('CONNECTED', function(data) {
+        console.log('=============== TEST SUCESSFULL ===============');
+    });
+</script>  
+<body id="home">
+    <h1>SOCKET TEST</h1>
+</body>
+</html>
+
+
