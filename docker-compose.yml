@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  api: 
+    build: API
+    ports:
+      - "8033:8033"

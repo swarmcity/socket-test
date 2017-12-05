@@ -12,4 +12,4 @@ io.on('connection', function(socket) {
     console.log('=============== TEST SUCESSFULL ===============');
 });
 
-server.listen(8033, 'localhost', () => console.log('API Example is listening on port 8033'))
+server.listen(8033, '0.0.0.0', () => console.log('API Example is listening on port 8033'))
