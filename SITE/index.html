@@ -7,7 +7,9 @@
 </head>
 <script>
     console.log('=============== START ===============');
-    var socket = io.connect('http://localhost:8033');
+    const socket = io('http://localhost:8033', {
+        transports: ['websocket', 'xhr-polling']
+    });
     console.log('=============== TEST SOCKET ===============');
     console.log(socket);
     console.log('=============== WAITING FOR API ===============');

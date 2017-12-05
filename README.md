@@ -27,7 +27,18 @@ Once the site has connected you will see in the console "TEST SUCESSFULL"
 
 ## Running the site
 
-Open the SITE folder and drag the index.html file into any browser, check the dev tools - console and you should see "TEST SUCESSFULL"
+cd into the API directory and install
+
+```
+npm install
+```
+
+And then run the API
+
+```
+node index.html
+```
+Open the SITE check the dev tools - console and you should see "TEST SUCESSFULL"
 
 ## Roadmap
 The plan is to incrementally add support for nginx and docker
