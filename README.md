@@ -6,39 +6,12 @@ Socket Test provides the simplest form of a socket connection using socket.io.
 
 Socket test consists of two parts, and API and a SITE. The Site connects to the API via socket.io on http://localhost:8033
 
-### API Prerequisites
-
-You will need node and npm installed
-
-### API Installation
-
-cd into the API directory and install
+### Running
 
 ```
-npm install
+docker-compose up
 ```
 
-And then run the API
-
-```
-npm start
-```
-Once the site has connected you will see in the console "TEST SUCESSFULL"
-
-## Running the site
-
-cd into the API directory and install
-
-```
-npm install
-```
-
-And then run the API
-
-```
-npm start
-```
-Open the SITE check the dev tools - console and you should see "TEST SUCESSFULL"
 
 ## Roadmap
 The plan is to incrementally add support for nginx and docker

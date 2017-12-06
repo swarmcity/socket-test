@@ -4,3 +4,7 @@ services:
     build: API
     ports:
       - "8033:8033"
+  site: 
+    build: SITE
+    ports:
+      - "8099:8099"
