@@ -1,6 +1,7 @@
 var app = require('express')();
 var server = require('http').createServer(app);
 const io = require('socket.io')(server, {
+    path: '/api',
     transports: ['websocket', 'xhr-polling']
 });
 

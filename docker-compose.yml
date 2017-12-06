@@ -2,9 +2,15 @@ version: "3.3"
 services:
   api: 
     build: API
-    ports:
-      - "8033:8033"
   site: 
     build: SITE
+  proxy:
+    build: PROXY
     ports:
-      - "8099:8099"
+      - "80:80"
+    links:
+      - api
+      - site
+    depends_on:
+      - site
+      - api
